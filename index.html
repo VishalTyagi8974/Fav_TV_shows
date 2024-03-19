@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fav Shows</title>
+    <link rel="stylesheet" href="My_Fav_Shows.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://www.shutterstock.com/shutterstock/photos/534263758/display_1500/stock-vector-my-favorite-postcard-lettering-for-valentines-day-ink-illustration-modern-brush-calligraphy-534263758.jpg"
+            alt="">
+        <form action="">
+
+            <input type="text" placeholder="Search a TV Show" name="query">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg></button>
+        </form>
+
+        <button id="towatch"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
+                <path
+                    d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+            </svg>0</button>
+    </header>
+    <article id="initems">
+        <div class="watchings invisible">
+            <h2
+                style="background-color: #FBAB7E;
+            background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); border-radius:1.5em; width: 100%; text-align: center; height: 1em; padding: 1em;">
+                <i>Empty WatchList</i>
+            </h2>
+        </div>
+    </article>
+
+    <section>
+        <section id="defal">
+            <h1>Welcome to Our Page, Here you can Search and add your Fav series to watchList.</h1>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="My_Fav_Shows.js"></script>
+</body>
+
+</html>
